@@ -1,0 +1,179 @@
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(../assets/web-under-constraction.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+main .overlay img.aa-logo {
+  width: 170px;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+main .overlay h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+main .overlay p.text {
+  font-size: 25px;
+  color: white;
+  width: 500px;
+  text-align: center;
+}
+main .overlay span {
+  font-size: 17px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+main .overlay .launch-time {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+main .overlay .launch-time div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .overlay .launch-time div p {
+  font-size: 90px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+main .overlay .launch-time div span {
+  text-align: center;
+  font-size: 17px;
+}
+main .overlay .social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+main .overlay .social-media a.social-link {
+  display: flex;
+}
+main .overlay .social-media a.social-link img.social-icon {
+  width: 30px;
+  opacity: 0.7;
+  transition: all ease 0.3s;
+}
+main .overlay .social-media a.social-link img.social-icon:hover {
+  opacity: 1;
+}
+main .overlay a.simbah-m-logo {
+  position: absolute;
+  bottom: 20px;
+  right: auto;
+  left: auto;
+}
+main .overlay a.simbah-m-logo img.simbahmm {
+  width: 130px;
+}
+
+@media (max-width: 1024px) {
+  main .overlay {
+    gap: 20px;
+  }
+  main .overlay img.aa-logo {
+    width: 150px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+  }
+  main .overlay h1 {
+    font-size: 50px;
+  }
+  main .overlay p.text {
+    font-size: 21px;
+    width: 400px;
+  }
+  main .overlay span {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  main .overlay .launch-time {
+    gap: 20px;
+  }
+  main .overlay .launch-time div p {
+    font-size: 70px;
+  }
+  main .overlay .launch-time div span {
+    text-align: center;
+  }
+  main .overlay .social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  main .overlay .social-media a.social-link {
+    display: flex;
+  }
+  main .overlay .social-media a.social-link img.social-icon {
+    width: 30px;
+    opacity: 0.7;
+    transition: all ease 0.3s;
+  }
+  main .overlay .social-media a.social-link img.social-icon:hover {
+    opacity: 1;
+  }
+}
+@media (max-width: 425px) {
+  main .overlay {
+    gap: 20px;
+  }
+  main .overlay img.aa-logo {
+    width: 100px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+  }
+  main .overlay h1 {
+    font-size: 30px;
+  }
+  main .overlay p.text {
+    font-size: 15px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  main .overlay span {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  main .overlay .launch-time {
+    gap: 20px;
+  }
+  main .overlay .launch-time div p {
+    font-size: 40px;
+  }
+  main .overlay .launch-time div span {
+    text-align: center;
+    font-size: 13px;
+  }
+  main .overlay .social-media {
+    gap: 30px;
+  }
+  main .overlay .social-media a.social-link {
+    display: flex;
+  }
+  main .overlay .social-media a.social-link img.social-icon {
+    width: 20px;
+    opacity: 0.7;
+    transition: all ease 0.3s;
+  }
+  main .overlay .social-media a.social-link img.social-icon:hover {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=index.css.map */

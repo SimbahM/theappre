@@ -1,0 +1,232 @@
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../assets/web-under-constraction.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.4);
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+
+        img.aa-logo {
+            width: 170px;
+            opacity: .7;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+
+        p.text {
+            font-size: 25px;
+            color: white;
+            width: 500px;
+            text-align: center;
+        }
+
+        span {
+            font-size: 17px;
+            color: white;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .launch-time {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    font-size: 90px;
+                    color: white;
+                    text-align: center;
+                    font-weight: 500;
+                }
+
+                span {
+                    text-align: center;
+                    font-size: 17px;
+                }
+            }
+        }
+
+        .social-media {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            a.social-link {
+                display: flex;
+
+                img.social-icon {
+                    width: 30px;
+                    opacity: .7;
+                    transition: all ease .3s;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        a.simbah-m-logo {
+            position: absolute;
+            bottom: 20px;
+            right: auto;
+            left: auto;
+
+            img.simbahmm {
+                width: 130px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    main {
+
+        .overlay {
+            gap: 20px;
+
+            img.aa-logo {
+                width: 150px;
+                opacity: .7;
+                margin-bottom: 30px;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+
+            p.text {
+                font-size: 21px;
+                width: 400px;
+            }
+
+            span {
+                font-size: 17px;
+                margin-bottom: 20px;
+            }
+
+            .launch-time {
+                gap: 20px;
+
+                div {
+
+                    p {
+                        font-size: 70px;
+                    }
+
+                    span {
+                        text-align: center;
+                    }
+                }
+            }
+
+            .social-media {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+
+                a.social-link {
+                    display: flex;
+
+                    img.social-icon {
+                        width: 30px;
+                        opacity: .7;
+                        transition: all ease .3s;
+
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    main {
+
+        .overlay {
+            gap: 20px;
+
+            img.aa-logo {
+                width: 100px;
+                opacity: .7;
+                margin-bottom: 10px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            p.text {
+                font-size: 15px;
+                width: 100%;
+                padding: 0 20px;
+            }
+
+            span {
+                font-size: 17px;
+                margin-bottom: 20px;
+            }
+
+            .launch-time {
+
+                gap: 20px;
+
+                div {
+
+                    p {
+                        font-size: 40px;
+                    }
+
+                    span {
+                        text-align: center;
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .social-media {
+                gap: 30px;
+
+                a.social-link {
+                    display: flex;
+
+                    img.social-icon {
+                        width: 20px;
+                        opacity: .7;
+                        transition: all ease .3s;
+
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
