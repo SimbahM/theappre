@@ -18,7 +18,7 @@ main .overlay {
   position: relative;
 }
 main .overlay img.aa-logo {
-  width: 170px;
+  width: 350px;
   opacity: 0.7;
   margin-bottom: 30px;
 }
@@ -90,7 +90,7 @@ main .overlay a.simbah-m-logo img.simbahmm {
     gap: 20px;
   }
   main .overlay img.aa-logo {
-    width: 150px;
+    width: 250px;
     opacity: 0.7;
     margin-bottom: 30px;
   }
@@ -136,7 +136,7 @@ main .overlay a.simbah-m-logo img.simbahmm {
     gap: 20px;
   }
   main .overlay img.aa-logo {
-    width: 100px;
+    width: 200px;
     opacity: 0.7;
     margin-bottom: 10px;
   }
